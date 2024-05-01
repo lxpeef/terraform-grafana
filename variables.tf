@@ -166,3 +166,8 @@ variable "health_check_matcher" {
   default     = "200"
 }
 
+variable "health_chack_path" {
+  description = "The health check path"
+  type        = string
+}
+
